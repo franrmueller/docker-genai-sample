@@ -48,4 +48,4 @@ COPY . .
 EXPOSE 8000
 
 # Run the application.
-CMD streeamlit run app.py --server.address=0.0.0.0 --server.port=8000
+CMD streamlit run app.py --server.address=0.0.0.0 --server.port=8000
